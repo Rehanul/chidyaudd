@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="splashActivity_padding_brand">80dp</dimen>
+    <dimen name="splashActivity_height_plane_size">200dp</dimen>
+    <dimen name="splashActivity_height_plane_runway">1000dp</dimen>
+    <dimen name="MenuActivity_width_animated_background">900dp</dimen>
+    <dimen name="MenuActivity_height_animated_background">240dp</dimen>
+    <dimen name="MenuActivity_text_size_brand_name">50sp</dimen>
+    <dimen name="MenuActivity_text_size_change_no_of_players">70sp</dimen>
+    <dimen name="margin_top_button">15dp</dimen>
+    <dimen name="margin_top_button_first">25dp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="padding_button">0dp</dimen>
+    <dimen name="label_size">18sp</dimen>
+    <dimen name="fab_padding">10dp</dimen>
+    <dimen name="textview_padding">15dp</dimen>
+    <dimen name="textview_heading_size">25sp</dimen>
+    <dimen name="fab_add_margin">5dp</dimen>
+    <dimen name="fab_add_negative_margin">-30dp</dimen>
+    <dimen name="textview_single_player_margin">50dp</dimen>
+    <dimen name="textiew_score_size">90sp</dimen>
+    <dimen name="pause_menu_padding">60dp</dimen>
+    <dimen name="textview_normal_text">20sp</dimen>
+    <dimen name="tutorial_margin_bottom">80dp</dimen>
+    <dimen name="button_padding_vertical">20dp</dimen>
+    <dimen name="button_padding_horizontal">20dp</dimen>
+    <dimen name="pause_imageview_padding">100dp</dimen>
+    <dimen name="pause_bottom_bar_height">60dp</dimen>
+    <dimen name="pause_button_size">100dp</dimen>
+
+
+</resources>

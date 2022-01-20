@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "20565258142",
+    "firebase_url": "https://chidya-udd-82335.firebaseio.com",
+    "project_id": "chidya-udd-82335",
+    "storage_bucket": "chidya-udd-82335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20565258142:android:ede5cf5213086caf",
+        "android_client_info": {
+          "package_name": "com.ameegolabs.chidyaudd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20565258142-2n4b942ia2jdjh1sm0767aajc6nja6q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ameegolabs.chidyaudd",
+            "certificate_hash": "DED94C9309F7A16B13B0FBEBC6F01E2A09C4B4F9"
+          }
+        },
+        {
+          "client_id": "20565258142-gdpvnbl7md2ne79g8v9pkmg293dk7b05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHlOo9jt3knBBMh4eADcSHgx_jR7Dwz4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20565258142-gdpvnbl7md2ne79g8v9pkmg293dk7b05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

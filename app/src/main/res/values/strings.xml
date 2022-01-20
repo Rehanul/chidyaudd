@@ -1,0 +1,232 @@
+<resources>
+    <string name="adunit">ca-app-pub-9328538449483757/7164124020</string>
+    <string name="app_name">Chidya Udd</string>
+    <string name="ready">Ready</string>
+    <string name="steady">Steady</string>
+    <string name="go">Go</string>
+    <string name="touch_to_start">Touch to start</string>
+    <string name="Score0">0</string>
+    <string name="description">description</string>
+    <string name="restart">Restart</string>
+    <string name="play">Play</string>
+    <string name="menu">Menu</string>
+    <string name="waiting">waiting</string>
+    <string name="continueimage">continue</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="minus">-</string>
+    <string name="one">1</string>
+    <string name="plus">+</string>
+    <string name="number_of_players">Number of players</string>
+    <string name="classic">classic</string>
+    <string name="deathmatch">deathmatch</string>
+    <string name="rapidfire">rapidfire</string>
+    <string name="custom">custom</string>
+    <string name="options">Options</string>
+    <string name="about_us">About Us</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="language">Language</string>
+    <string name="learn">Learn</string>
+    <string name="custom_words">Custom Words</string>
+    <string name="flying_things">Flying Things</string>
+    <string name="non_flying_things">Non Flying Things</string>
+    <string name="let_s_start">Let\'s Start</string>
+    <string name="hold_there">Woahhh, hold your finger there</string>
+    <string name="eagle">EAGLE</string>
+    <string name="mountain">MOUNTAIN</string>
+    <string name="gameover">Game over</string>
+
+    <string name="rajnikant">Rajnikant</string>
+    <string name="chuck_norris">Chuck Norris</string>
+    <string name="wonder_women">Wonder Women</string>
+    <string name="ironman">Ironman</string>
+    <string name="goku">Goku</string>
+    <string name="superman">Superman</string>
+    <string name="vision">Vision</string>
+    <string name="magneto">Magneto</string>
+    <string name="buzz_lightyear">Buzz Lightyear</string>
+    <string name="green_lantern">Green Lantern</string>
+    <string name="hancock">Hancock</string>
+    <string name="peter_pan">Peter Pan</string>
+
+
+    <string name="hulk">Hulk</string>
+    <string name="captan_america">Captan America</string>
+    <string name="thor">Thor</string>
+    <string name="flash">Flash</string>
+    <string name="batman">Batman</string>
+    <string name="spiderman">Spiderman</string>
+    <string name="wolverine">Wolverine</string>
+    <string name="deadpool">Deadpool</string>
+    <string name="nightcrawler">Night Crawler</string>
+    <string name="silversurfer">Silver Surfer</string>
+    <string name="antman">Antman</string>
+    <string name="harry_potter">Harry Potter</string>
+
+
+    <string name="step1">Here\'s a short introduction on how to play this game\n\n\nTouch and hold your finger on RED part of the screen\n\n\nGo Ahead try it !</string>
+
+    <string name="step2">"Good\n\nNow the question says EAGLE\n*Eagle is a large, powerful bird of prey.\nIn short an Eagle can fly. So, for flying things, you\'ve to answer YES by raising your fingers from screen\n\nDoes an Eagle fly? answer…"</string>
+
+    <string name="step3">"WOW, you\'re a fast learner\n\nSimilarly, to answer NO for non flying objects, put and hold your finger down\n\n#HINT : after you raise your finger from the screen, put it back quickly\n\nDoes a mountain fly? answer…"</string>
+
+    <string name="step4">"\n\n\n\n\nCongratulations\nyou\'ve mastered the basics of this game.\n\n\"Your wings already exist\n\n\nAll you have to do is FLY\""</string>
+    <string name="high_score">High Score : </string>
+    <string name="new_record">"New Record\n "</string>
+
+
+    <string-array name="flying">
+        <item>Airplane</item>
+        <item>Swan</item>
+        <item>Bee</item>
+        <item>Bulbul</item>
+        <item>Butterfly</item>
+        <item>Crow</item>
+        <item>Dove</item>
+        <item>Eagle</item>
+        <item>Hand Glider</item>
+        <item>Helicopter</item>
+        <item>Hot Air Balloon</item>
+        <item>Housefly</item>
+        <item>Kite</item>
+        <item>Nightingale</item>
+        <item>Owl</item>
+        <item>Parrot</item>
+        <item>Peacock</item>
+        <item>Pigeon</item>
+        <item>Hawk</item>
+        <item>Rocket</item>
+        <item>Spaceship</item>
+        <item>Sparrow</item>
+        <item>Kingfisher</item>
+        <item>Jay</item>
+        <item>Bluebird</item>
+        <item>Bumblebee</item>
+        <item>Dragonfly</item>
+        <item>Drone</item>
+        <item>Duck</item>
+        <item>Falcon</item>
+        <item>Firefly</item>
+        <item>Flamingo</item>
+        <item>Flying ant</item>
+        <item>Grasshopper</item>
+        <item>Heron</item>
+        <item>Hummingbird</item>
+        <item>Kingbird</item>
+        <item>Ladybird</item>
+        <item>Mosquito</item>
+        <item>Myna</item>
+        <item>Pelican</item>
+        <item>Robin</item>
+        <item>Seagull</item>
+        <item>Turkey</item>
+        <item>Vulture</item>
+        <item>Woodpecker</item>
+        <item>Blimp</item>
+        <item>Canary</item>
+        <item>Chickadee</item>
+        <item>Finch</item>
+        <item>Frisbee</item>
+        <item>Goose</item>
+        <item>Hornbill</item>
+        <item>Hornet</item>
+        <item>Kakapoo</item>
+        <item>Mantis</item>
+        <item>Mayfly</item>
+        <item>Mockingbird</item>
+        <item>Moth</item>
+        <item>Oystercatcher</item>
+        <item>Pegasus</item>
+        <item>Puffin</item>
+        <item>Quail</item>
+        <item>Skylark</item>
+        <item>Stork</item>
+        <item>Swallow</item>
+        <item>Swift</item>
+        <item>Toucan</item>
+        <item>Wasp</item>
+        <item>Wagtail</item>
+        <item>Ibis</item>
+        <item>Jackdraw</item>
+        <item>Rook</item>
+        <item>Cardinal</item>
+        <item>Egret</item>
+        <item>Magpie</item>
+        <item>Crane</item>
+    </string-array>
+
+    <string-array name="nonFlying">
+        <item>Bottle</item>
+        <item>Plank</item>
+        <item>Cat</item>
+        <item>Cheetah</item>
+        <item>Dog</item>
+        <item>Dolphin</item>
+        <item>Donkey</item>
+        <item>Elephant</item>
+        <item>Computer</item>
+        <item>Egg</item>
+        <item>Dice</item>
+        <item>Wood</item>
+        <item>Fox</item>
+        <item>Guitar</item>
+        <item>Lion</item>
+        <item>Monkey</item>
+        <item>Ostrich</item>
+        <item>Panda</item>
+        <item>Rabbit</item>
+        <item>Rock</item>
+        <item>Shark</item>
+        <item>Hammer</item>
+        <item>Table</item>
+        <item>Tree</item>
+        <item>Whale</item>
+        <item>Wolf</item>
+        <item>Alligator</item>
+        <item>Pen</item>
+        <item>Caterpillar</item>
+        <item>Chameleon</item>
+        <item>Cuttlefish</item>
+        <item>Emu</item>
+        <item>Gorilla</item>
+        <item>Hovercraft</item>
+        <item>Buffalo</item>
+        <item>Kangaroo</item>
+        <item>Kiwi</item>
+        <item>Koala bear</item>
+        <item>Komodo dragon</item>
+        <item>Lobster</item>
+        <item>Panther</item>
+        <item>Penguin</item>
+        <item>Pepper</item>
+        <item>Rhinoceros</item>
+        <item>Salamander</item>
+        <item>Sea lion</item>
+        <item>Shrimp</item>
+        <item>Pilot</item>
+        <item>Zebra</item>
+        <item>Alpacas</item>
+        <item>Armadillo</item>
+        <item>Astronaut</item>
+        <item>Boar</item>
+        <item>Campbell teal</item>
+        <item>Cassowary</item>
+        <item>Chalice</item>
+        <item>Dodo</item>
+        <item>Eel</item>
+        <item>Elk</item>
+        <item>Harp</item>
+        <item>Hedgehog</item>
+        <item>Kakapo</item>
+        <item>Lama</item>
+        <item>Mole</item>
+        <item>Moose</item>
+        <item>Rhea</item>
+        <item>Sabertooth</item>
+        <item>Steamer duck</item>
+        <item>Takahe</item>
+        <item>Tambourine</item>
+        <item>Weka</item>
+        <item>Woolly Mammoth</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_gradient">
+
+
+    <!-- clouds -->
+    <FrameLayout
+        android:id="@+id/frameLayoutCloud"
+        android:layout_width="@dimen/MenuActivity_width_animated_background"
+        android:layout_height="@dimen/MenuActivity_height_animated_background">
+
+        <ImageView
+            android:id="@+id/imageViewClouds1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:contentDescription="@string/description"
+            android:scaleType="fitStart"
+            android:src="@drawable/clouds" />
+
+        <ImageView
+            android:id="@+id/imageViewClouds2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:contentDescription="@string/description"
+            android:scaleType="fitStart"
+            android:src="@drawable/clouds" />
+
+    </FrameLayout>
+
+
+    <!-- trees -->
+    <FrameLayout
+        android:id="@+id/frameLayoutTree"
+        android:layout_width="@dimen/MenuActivity_width_animated_background"
+        android:layout_height="@dimen/MenuActivity_height_animated_background"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/imageViewTreeBackground1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:contentDescription="@string/description"
+            android:scaleType="fitEnd"
+            android:src="@drawable/tree" />
+
+        <ImageView
+            android:id="@+id/imageViewTreeBackground2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:contentDescription="@string/description"
+            android:scaleType="fitEnd"
+            android:src="@drawable/tree" />
+
+    </FrameLayout>
+
+
+    <!-- main content -->
+    <LinearLayout
+        android:id="@+id/linearLayoutContents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewChidyaUdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="10"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/MenuActivity_text_size_brand_name"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonSubtractPlayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:shadowColor="@color/colorBlack"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="12"
+                    android:text="@string/minus"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/MenuActivity_text_size_change_no_of_players" />
+
+                <TextView
+                    android:id="@+id/textViewNoOfPlayers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:shadowColor="@color/colorBlack"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="12"
+                    android:text="@string/one"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/MenuActivity_text_size_change_no_of_players"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonAddPlayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:shadowColor="@color/colorBlack"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="12"
+                    android:text="@string/plus"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/MenuActivity_text_size_change_no_of_players" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewNoOfPlayersText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="@color/colorBlack"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
+                android:text="@string/number_of_players"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/textview_heading_size" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_button_first"
+                android:background="@drawable/button1"
+                android:padding="@dimen/padding_button"
+                android:text="@string/classic"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_button"
+                android:background="@drawable/button2"
+                android:padding="@dimen/padding_button"
+                android:text="@string/deathmatch"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_button"
+                android:background="@drawable/button3"
+                android:padding="@dimen/padding_button"
+                android:text="@string/rapidfire"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_button"
+                android:background="@drawable/button4"
+                android:padding="@dimen/padding_button"
+                android:text="@string/custom"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- fab options -->
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/fab_padding"
+        fab:menu_backgroundColor="@color/colorRipplePlayer5Transparent"
+        fab:menu_colorNormal="@color/colorRipplePlayer5"
+        fab:menu_colorPressed="@color/colorRipplePlayer5"
+        fab:menu_fab_label="@string/options"
+        fab:menu_icon="@drawable/ic_settings"
+        fab:menu_labels_colorNormal="@color/colorRipplePlayer5"
+        fab:menu_labels_colorPressed="@color/colorRipplePlayer5"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_labels_textSize="@dimen/label_size">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabTutorial"
+            style="@style/FabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_videogame"
+            fab:fab_label="@string/tutorial" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabLanguage"
+            style="@style/FabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_language"
+            fab:fab_label="@string/language" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabLearn"
+            style="@style/FabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_learn"
+            fab:fab_label="@string/learn"
+            fab:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabCustomWords"
+            style="@style/FabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_word_list"
+            fab:fab_label="@string/custom_words"
+            fab:fab_size="normal" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</FrameLayout>

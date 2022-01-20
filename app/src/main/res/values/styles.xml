@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="FabButton">
+        <item name="fab_size">normal</item>
+        <item name="fab_colorNormal">#9C27B0</item>
+        <item name="fab_colorPressed">#AE4EBE</item>
+        <item name="fab_colorRipple">#C075CC</item>
+    </style>
+
+</resources>

@@ -1,0 +1,374 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Player2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/rippleEffect1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:mrl_rippleAlpha="1"
+                    app:mrl_rippleColor="@color/colorRipplePlayer1"
+                    app:mrl_rippleOverlay="true">
+
+                    <Button
+                        android:id="@+id/buttonPlayer1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorButtonPlayer1"
+                        android:gravity="center"
+                        android:text="" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <TextView
+                    android:id="@+id/textViewScorePlayer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="top|center"
+                    android:rotation="180"
+                    android:text="@string/Score0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textiew_score_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewLosePoints1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/poop"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageViewGainPoints1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:rotation="180"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/eagle"
+                    android:visibility="invisible" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/rippleEffect4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:mrl_rippleAlpha="1"
+                    app:mrl_rippleColor="@color/colorRipplePlayer4"
+                    app:mrl_rippleOverlay="true">
+
+                    <Button
+                        android:id="@+id/buttonPlayer4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorButtonPlayer4"
+                        android:gravity="center"
+                        android:text="" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <TextView
+                    android:id="@+id/textViewScorePlayer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="top|center"
+                    android:rotation="180"
+                    android:text="@string/Score0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textiew_score_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewLosePoints4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/poop"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageViewGainPoints4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:rotation="180"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/eagle"
+                    android:visibility="invisible" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="@dimen/textview_padding"
+            android:rotation="180"
+            android:text="@string/touch_to_start"
+            android:textSize="@dimen/textview_heading_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkerGrey"
+            android:orientation="vertical" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkerGrey"
+            android:orientation="vertical" />
+
+
+        <TextView
+            android:id="@+id/textViewQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/touch_to_start"
+            android:textSize="@dimen/textview_heading_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/rippleEffect2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:mrl_rippleAlpha="1"
+                    app:mrl_rippleColor="@color/colorRipplePlayer2"
+                    app:mrl_rippleOverlay="true">
+
+                    <Button
+                        android:id="@+id/buttonPlayer2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorButtonPlayer2"
+                        android:gravity="center"
+                        android:text="" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <TextView
+                    android:id="@+id/textViewScorePlayer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="top|center"
+                    android:text="@string/Score0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textiew_score_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewLosePoints2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/poop"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageViewGainPoints2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/eagle"
+                    android:visibility="invisible" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/rippleEffect3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:mrl_rippleAlpha="1"
+                    app:mrl_rippleColor="@color/colorRipplePlayer3"
+                    app:mrl_rippleOverlay="true">
+
+                    <Button
+                        android:id="@+id/buttonPlayer3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorButtonPlayer3"
+                        android:gravity="center"
+                        android:text="" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <TextView
+                    android:id="@+id/textViewScorePlayer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="top|center"
+                    android:text="@string/Score0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textiew_score_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewLosePoints3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/poop"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageViewGainPoints3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/eagle"
+                    android:visibility="invisible" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPauseContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorRipplePlayer3"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPauseButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButtonRestart"
+                    android:layout_width="@dimen/pause_button_size"
+                    android:layout_height="@dimen/pause_button_size"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/restart"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_replay" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButtonPlay"
+                    android:layout_width="@dimen/pause_button_size"
+                    android:layout_height="@dimen/pause_button_size"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/play"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_play" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButtonMenu"
+                    android:layout_width="@dimen/pause_button_size"
+                    android:layout_height="@dimen/pause_button_size"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/menu"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_menu" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

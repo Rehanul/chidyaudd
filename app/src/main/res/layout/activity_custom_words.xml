@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_words"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CustomWordsActivity">
+
+    <TextView
+        android:id="@+id/textViewFlying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorRipplePlayer3"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/flying_things"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textview_heading_size"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddFlying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewFlying"
+        android:layout_marginEnd="@dimen/fab_add_margin"
+        android:layout_marginRight="@dimen/fab_add_margin"
+        android:layout_marginTop="@dimen/fab_add_negative_margin"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorWhite" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewNonFlying"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textViewNonFlying"
+        android:layout_below="@+id/textViewFlying"
+        android:background="@color/colorButtonPlayer2" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewFlying"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textViewNonFlying"
+        android:layout_below="@+id/textViewFlying"
+        android:background="@color/colorButtonPlayer3" />
+
+
+    <TextView
+        android:id="@+id/textViewNonFlying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorRipplePlayer2"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/non_flying_things"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textview_heading_size"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddNonFlying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewNonFlying"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/fab_add_negative_margin"
+        android:layout_marginEnd="@dimen/fab_add_margin"
+        android:layout_marginRight="@dimen/fab_add_margin"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorWhite" />
+
+
+</RelativeLayout>

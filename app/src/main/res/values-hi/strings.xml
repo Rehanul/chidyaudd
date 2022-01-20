@@ -1,0 +1,230 @@
+<resources>
+    <string name="adunit">ca-app-pub-9328538449483757/7164124020</string>
+    <string name="app_name">चिड़िया उड़</string>
+    <string name="ready">रेडी</string>
+    <string name="steady">स्टेडी</string>
+    <string name="go">गो</string>
+    <string name="touch_to_start">उंगली रखे</string>
+    <string name="Score0">0</string>
+    <string name="description">वर्णन</string>
+    <string name="restart">फिर से</string>
+    <string name="play">खेले</string>
+    <string name="menu">सूची</string>
+    <string name="waiting">प्रतीक्षा में</string>
+    <string name="continueimage">जारी करे</string>
+    <string name="error_field_required">यह क्षेत्र आवश्यक है</string>
+    <string name="minus">-</string>
+    <string name="one">1</string>
+    <string name="plus">+</string>
+    <string name="number_of_players">खिलाड़ियों की संख्या</string>
+    <string name="classic">क्लासिक</string>
+    <string name="deathmatch">जोखिम भरा</string>
+    <string name="rapidfire">तीव्र गति</string>
+    <string name="custom">स्पेशल</string>
+    <string name="options">विकल्प</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="tutorial">खेलना  सीखे</string>
+    <string name="language">भाषा चुनें</string>
+    <string name="learn">शब्द सीखे</string>
+    <string name="custom_words">नए शब्द जोड़े</string>
+    <string name="flying_things">उड़ने वाली चीज़ें</string>
+    <string name="non_flying_things">नहीं उड़ने वाली चीज़ें</string>
+    <string name="let_s_start">शुरू करें</string>
+    <string name="hold_there">उंगली न उठाए</string>
+    <string name="eagle">गरूड़</string>
+    <string name="mountain">पर्वत</string>
+    <string name="gameover">खेल खत्म</string>
+
+    <string name="rajnikant">रजनीकांत</string>
+    <string name="chuck_norris">शक्तिमान</string>
+    <string name="wonder_women">भीम</string>
+    <string name="ironman">बालवीर</string>
+    <string name="goku">हनुमान जी</string>
+    <string name="superman">कृष</string>
+    <string name="vision">चाचा चौधरी</string>
+    <string name="magneto">कर्मा</string>
+    <string name="buzz_lightyear">घटोत्कच</string>
+    <string name="green_lantern">सुपरमैन</string>
+    <string name="hancock">पतंग</string>
+    <string name="peter_pan">हवाई जहाज</string>
+
+    <string name="hulk">डोगा</string>
+    <string name="captan_america">मोगली</string>
+    <string name="thor">नागराज</string>
+    <string name="flash">बैताल</string>
+    <string name="batman">बैटमैन</string>
+    <string name="spiderman">बीरबल</string>
+    <string name="wolverine">तानसेन</string>
+    <string name="deadpool">कालिया</string>
+    <string name="nightcrawler">गब्बर </string>
+    <string name="silversurfer">वीरप्पन</string>
+    <string name="antman">क्राइम मास्टर गोगो</string>
+    <string name="harry_potter">मोगैम्बो</string>
+
+
+    <string name="step1">इस खेल को खेलने के लिए  परिचय है\n\n\nस्क्रीन के लाल भाग पर अपनी उंगली पकड़ कर रखे\n\n\nकोशिश करे! !</string>
+
+    <string name="step2">"बहुत बढिया\n\nअब सवाल मे कबूतर  हैं और कबूतर उड़ सकता है।\nतो, उड़ाने वाली चीजों का उत्तर हाँ, अपनी उंगलि ऊपर उठा के दे !\n\nकया कबूतर उड़ सकता है? उत्तर दे…"</string>
+
+    <string name="step3">"इसी तरह, नहीं उड़ाने वाली चीजों का उत्तर दने के लिए उंगली नीचे स्क्रीन पर रखे\n\n\n#संकेत: उंगली उठाने के बाद जल्दी से स्क्रीन पर वापस रखे\n\nक्या पहाड़ उड़ सकता है ? उत्तर दे…"</string>
+
+    <string name="step4">"\n\n\n\n\n\nआप इस खेल को नियम सीख चुके हैं"</string>
+    <string name="high_score">उच्च स्कोर : </string>
+    <string name="new_record">"नया रिकॉर्ड\n "</string>
+
+    <string-array name="flying">
+        <item>विमान</item>
+        <item>हंस</item>
+        <item>मधुमक्खी</item>
+        <item>बुलबुल</item>
+        <item>तितली</item>
+        <item>कौआ</item>
+        <item>कबूतर</item>
+        <item>गरूड़</item>
+        <item>मुर्गा</item>
+        <item>हेलीकॉप्टर</item>
+        <item>गुब्बारा</item>
+        <item>मक्खी</item>
+        <item>पतंग</item>
+        <item>बुलबुल</item>
+        <item>उल्लू</item>
+        <item>तोता</item>
+        <item>मोर</item>
+        <item>कबूतर</item>
+        <item>बाज़</item>
+        <item>राकेट</item>
+        <item>अंतरिक्ष यान</item>
+        <item>गौरैया</item>
+        <item>किंगफिशर</item>
+        <item>नीलकंठ</item>
+        <item>रामचिरैया</item>
+        <item>भंवरा</item>
+        <item>व्याध-पतंगा</item>
+        <item>टिड्डी</item>
+        <item>बत्तख</item>
+        <item>बाज़</item>
+        <item>जुगनू</item>
+        <item>मराल</item>
+        <item>उड़नेवाली चींटी</item>
+        <item>टिड्डी</item>
+        <item>बगला</item>
+        <item>मर्मर पक्षी</item>
+        <item>पपीहा</item>
+        <item>रामचिरैया</item>
+        <item>मच्छर</item>
+        <item>मैना</item>
+        <item>तीतर</item>
+        <item>रोबिन</item>
+        <item>कठफोड़वा</item>
+        <item>तीतर</item>
+        <item>गिद्ध</item>
+        <item>कठफोड़वा</item>
+        <item>वायुयान</item>
+        <item>दाबिल</item>
+        <item>झींगुर</item>
+        <item>पिहो</item>
+        <item>उड़न तश्तरी</item>
+        <item>बत्तख</item>
+        <item>गौरेया</item>
+        <item>हाड़ा</item>
+        <item>फाख्ता</item>
+        <item>चकता</item>
+        <item>कठसारंग</item>
+        <item>रामगंगारा</item>
+        <item>कीट</item>
+        <item>गुलिंदा</item>
+        <item>फुत्की</item>
+        <item>पितरेल</item>
+        <item>बटेर</item>
+        <item>चकवा</item>
+        <item>सारस</item>
+        <item>अबाबील</item>
+        <item>तत्पर</item>
+        <item>गुंग्ला</item>
+        <item>हड्डा</item>
+        <item>बिर्वा</item>
+        <item>बया</item>
+        <item>चकोर</item>
+        <item>कौआ</item>
+        <item>दुर्कल</item>
+        <item>सफ़ेद बगुला</item>
+        <item>अधेला</item>
+        <item>कौआ</item>
+    </string-array>
+
+    <string-array name="nonFlying">
+        <item>बोतल</item>
+        <item>पटरा</item>
+        <item>बिल्ली</item>
+        <item>चीता</item>
+        <item>कुत्ता</item>
+        <item>डॉल्फिन</item>
+        <item>गधा</item>
+        <item>हाथी</item>
+        <item>कंप्यूटर</item>
+        <item>अंडा</item>
+        <item>पासा</item>
+        <item>लकड़ी</item>
+        <item>लोमड़ी</item>
+        <item>गिटार</item>
+        <item>शेर</item>
+        <item>बंदर</item>
+        <item>शुतुरमुर्ग</item>
+        <item>पांडा</item>
+        <item>खरगोश</item>
+        <item>चट्टान</item>
+        <item>शार्क</item>
+        <item>हथौड़ा</item>
+        <item>मेज</item>
+        <item>पेड़</item>
+        <item>व्हेल</item>
+        <item>भेड़िया</item>
+        <item>मगर</item>
+        <item>कलम</item>
+        <item>इल्ली</item>
+        <item>गिरगिट</item>
+        <item>मछली</item>
+        <item>एमु</item>
+        <item>गोरिल्ला</item>
+        <item>हुवरक्रफ़्ट</item>
+        <item>भेंस</item>
+        <item>कंगारू</item>
+        <item>कीवी</item>
+        <item>कोअला भालू</item>
+        <item>कोमोडो ड्रैगन</item>
+        <item>झींगा मछली</item>
+        <item>तेंदुआ</item>
+        <item>पेंगुइन</item>
+        <item>मिर्च</item>
+        <item>गैंडा</item>
+        <item>समन्दर</item>
+        <item>सील</item>
+        <item>झींगा</item>
+        <item>पायलट</item>
+        <item>ज़ेबरा</item>
+        <item>बल्ब</item>
+        <item>कुरसी</item>
+        <item>अंतरिक्ष यात्री</item>
+        <item>सूअर</item>
+        <item>साइकिल</item>
+        <item>रस्सी</item>
+        <item>प्याला</item>
+        <item>बकरा</item>
+        <item>चूहा</item>
+        <item>खरगोश</item>
+        <item>पलंग</item>
+        <item>हिरन</item>
+        <item>घोड़ा</item>
+        <item>भेड़</item>
+        <item>ऊंट</item>
+        <item>जिराफ़</item>
+        <item>भेड़िया</item>
+        <item>गिलहरी</item>
+        <item>बांस</item>
+        <item>वानर</item>
+        <item>कार</item>
+        <item>बैंजो</item>
+        <item>हाथी</item>
+    </string-array>
+
+</resources>
